@@ -1,0 +1,42 @@
+.estadistica-global{
+    width: 100%;
+    height: 200px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.estadistica-global > div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.graph-circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.azul{
+    border: 10px solid #0e81f8;
+}
+.verde{
+    border: 10px solid #75bb4a;
+}
+.rojo{
+    border: 10px solid #b60c0c;
+}
+.cantidad{
+    font-size: 32px;
+    font-weight: 600;
+}
+.tickets{
+    font-size: 16px;
+}
+.categoria{
+    font-size: 16px;
+}

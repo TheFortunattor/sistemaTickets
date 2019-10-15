@@ -7,6 +7,7 @@
     <title>CRM - Fortunatto</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/estatico-adm.css">
+    <link rel="stylesheet" href="src/css/dashboard.css">
 </head>
 <body>
     
@@ -38,7 +39,29 @@
         </ul>
     </nav>
     <main>
-
+        <section class="estadistica-global">
+            <div>
+                <div class="graph-circle azul">
+                    <div class="tickets">Tickets</div>
+                    <div class="cantidad">1128</div>
+                    <div class="categoria">Totales</div>
+                </div>
+            </div>
+            <div>
+                <div class="graph-circle verde">
+                    <div class="tickets">Tickets</div>
+                    <div class="cantidad">1128</div>
+                    <div class="categoria">Cerrados</div>
+                </div>
+            </div>
+            <div>
+                <div class="graph-circle rojo">
+                    <div class="tickets">Tickets</div>
+                    <div class="cantidad">1128</div>
+                    <div class="categoria">Pendientes</div>
+                </div>
+            </div>            
+        </section>
     </main>
     <script src="src/js/jquery.js"></script>
     <script src="src/js/menu.js"></script>
