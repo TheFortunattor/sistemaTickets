@@ -24,7 +24,7 @@
 
     <nav>
         <div>
-            <img src="src/img/logo.png" height="50" alt="LogoFortunattoCRM">
+            <img src="src/img/logo_radio_ciudad.jpg" height="50" alt="LogoFortunattoCRM">
         </div>
 
         <ul>
