@@ -40,3 +40,17 @@
 .categoria{
     font-size: 16px;
 }
+.api-google{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chart_div{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    min-width: 350px;
+}
